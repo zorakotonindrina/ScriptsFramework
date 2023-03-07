@@ -6,6 +6,7 @@ import javax.servlet.http.*;
 import java.util.*;
 public class FrontServlet extends HttpServlet 
 {
+    HashMap<String,Mapping> mappingUrls;
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
                 try {
