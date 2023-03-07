@@ -4,6 +4,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.util.*;
+import etu1836.framework.*;
 public class FrontServlet extends HttpServlet 
 {
     HashMap<String,Mapping> mappingUrls;
